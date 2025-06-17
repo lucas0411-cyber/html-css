@@ -1,0 +1,15 @@
+@charset "utf-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color: white;
+}
