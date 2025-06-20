@@ -3,9 +3,16 @@
     margin: 0px;
     padding: 0px;
 }
+
+:root{
+    --fonte1:Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: ;
+    --fonte3: ; 
+}
 html, body{
     background-color: lightgray;
     min-width: 100hv;
+    font-family: var(--fonte1)
 }
 a{
     text-decoration: none;
@@ -22,6 +29,7 @@ header {
 }
 header > h1{
     padding-top: 50px;
+    font-variant: small-caps;
 }
 header > p{
     padding-bottom: 50px;
