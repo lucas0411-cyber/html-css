@@ -3,7 +3,14 @@
     margin: 0px;
     padding: 0px;
 }
-
+html, body{
+    color: lightgray;
+    min-width: 100hv;
+}
+a{
+    text-decoration: none;
+    
+}
 header{
     background-color: black;
     color: white;
