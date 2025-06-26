@@ -1,4 +1,9 @@
 @charset "utf-8";
+@font-face {
+    font-family: 'scriptorial';
+    src: url(Scriptorial)
+    format(truetype);
+}
 *{
     margin: 0px;
     padding: 0px;
@@ -6,7 +11,7 @@
 
 :root{
     --fonte1:Verdana, Geneva, Tahoma, sans-serif;
-    --fonte2: ;
+    --fonte2: 'scriptorial', 'Times New Roman', Times, serif ;
     --fonte3: ; 
 }
 html, body{
