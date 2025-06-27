@@ -1,9 +1,6 @@
 @charset "utf-8";
-@font-face {
-    font-family: 'scriptorial';
-    src: url(Scriptorial)
-    format(truetype);
-}
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -11,8 +8,8 @@
 
 :root{
     --fonte1:Verdana, Geneva, Tahoma, sans-serif;
-    --fonte2: 'scriptorial', 'Times New Roman', Times, serif ;
-    --fonte3: ; 
+    --fonte2: "Caveat", 'Times New Roman', Times, serif ;
+    --fonte3: "Permanent Marker", 'Times New Roman', Times, serif ; 
 }
 html, body{
     background-color: lightgray;
@@ -31,6 +28,7 @@ header {
     background-color: black;
     color: white;
     text-align: center;
+    font-family: var(--fonte3);
 }
 header > h1{
     padding-top: 50px;
@@ -44,6 +42,8 @@ section{
     padding-top: 10%;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte2);
+    font-size: larger;
 }
 section.normal{
     background-color: white;
