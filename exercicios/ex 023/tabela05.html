@@ -5,18 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tabela</title>
     <style>
-        table{
-            width: 500px;
-            border-collapse: collapse;
-        }
-        td, th{
-            border: 1px solid black;
-            padding: 8px;
-        }
+      table{
+        width: 500px;
+        border-collapse: collapse;
+      }
+      td, th{
+        border: 1px solid black;
+        padding: 8px;
+      }
+      .cprof{
+        background-color: aqua;
+        color: black;
+      }
     </style>
 </head>
 <body>
     <table>
+      <colgroup>
+        <col class="cnome">
+        <col class="csexo">
+        <col class="cidade">
+        <col class="cprof">
+      </colgroup>
         <thead>
         <tr>
             <th>Nome</th>
@@ -33,34 +43,34 @@
             <td>Jornalista</td>
           </tr>
           <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Claudio</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Programador</td>
           </tr>
           <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Gustavo</td>
+            <td>M</td>
+            <td>42</td>
+            <td>Professor</td>
           </tr>
           <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Mélio</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Vendedor</td>
           </tr>
           <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Maria</td>
+            <td>F</td>
+            <td>39</td>
+            <td>Médica</td>
           </tr>
           <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Otávio</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Nutricionista</td>
           </tr>
         </tbody>
     </table>
