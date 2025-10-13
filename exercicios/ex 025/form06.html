@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+        <P>
+            <label for="icor">cor:</label>
+            <input type="color" name="cor" id="icor" value="#0037ff">
+        </P>
+        <p>
+            <label for="isat">nivel de satisfção</label>
+            <input type="range" name="sat" id="isat" min="1" max="5" value="2">
+        </p>
+        <p>
+            <label for="ifoto">foto de perfil</label>
+            <input type="file" name="foto" id="ifoto">
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="excluir">
+        </p>
+    </form>
+</body>
+</html>
